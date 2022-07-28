@@ -35,6 +35,16 @@ function cb(el, binding) {
 }
 ```
 
-## 三 使用场景
+## 三 使用方式
+
+非常方便，在main.js中导入，通过app.use()的方式注册即可。
+
+```javascript
+import directives from '@/directives'
+
+createApp(App).use(ElementPlus).use(directives).mount('#app')
+```
+
+## 四 使用场景
 
 适用于点击按钮后禁用一段实践，防止重复触发。在一定程度上，能够代替防抖且更好用。因为这是一次注册，随处使用，而防抖用时需要每次引入。
