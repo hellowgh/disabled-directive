@@ -8,7 +8,7 @@ demo仓库地址：https://github.com/hellowgh/disabled-directive
 
 大家下载体验便知。
 
-## 封装思路
+## 二 封装思路
 
 1、利用原生JS给button添加disabled属性。
 
@@ -35,6 +35,6 @@ function cb(el, binding) {
 }
 ```
 
-## 使用场景
+## 三 使用场景
 
 适用于点击按钮后禁用一段实践，防止重复触发。在一定程度上，能够代替防抖且更好用。因为这是一次注册，随处使用，而防抖用时需要每次引入。
